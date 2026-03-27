@@ -1,0 +1,25 @@
+/time set
+/time set night
+/time set day
+/setworldspawn
+/kill Player49
+/kill
+/gamemode survival
+/kill
+/gamemode creative
+/gamemode survival Player581
+/kill Player581
+/gamemode creative
+/kill Player776
+/kill @a
+/kill Player747
+/kill Player529
+/gamemode creative
+/kill Player159
+/kill Player398
+/kill Player499
+/kill
+/kill Player513
+/kill
+/kill Player338
+/kill Player665

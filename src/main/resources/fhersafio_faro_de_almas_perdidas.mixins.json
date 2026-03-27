@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "com.fhersafio.farodealmasperdidas.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "fhersafio_faro_de_almas_perdidas.refmap.json",
+  "mixins": [
+    "RepairItemRecipeMixin",
+    "ServerPlayerMixin",
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "ItemStackMixin",
+    "BlockItemMixin",
+    "BoneMealItemMixin",
+    "CommandsMixin",
+    "ExperienceOrbMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}

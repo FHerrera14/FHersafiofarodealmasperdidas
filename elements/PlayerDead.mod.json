@@ -1,0 +1,35 @@
+{
+  "_fv": 79,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "pipo.png",
+          "spritesCount": 68,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 88,
+          "y": -9,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "PlayerDeadDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 5,
+      "sy": 5,
+      "ox": 5,
+      "oy": 5,
+      "snapOnGrid": true
+    }
+  }
+}

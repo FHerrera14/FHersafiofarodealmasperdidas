@@ -1,0 +1,82 @@
+{
+  "break_faro": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:break_faro",
+        "stream": false
+      }
+    ]
+  },
+  "place_faro": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:faro_place",
+        "stream": false
+      }
+    ]
+  },
+  "drop_faro": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:faro_drop",
+        "stream": false
+      }
+    ]
+  },
+  "player_dead": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:player_dead",
+        "stream": false
+      }
+    ]
+  },
+  "player_revive": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:player_revive",
+        "stream": false
+      }
+    ]
+  },
+  "first_gem_mission": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:first_gem_mission",
+        "stream": false
+      }
+    ]
+  },
+  "second_gem_mission": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:second_gem_mission",
+        "stream": false
+      }
+    ]
+  },
+  "third_gem_mission": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:thrid_gem_mission",
+        "stream": false
+      }
+    ]
+  },
+  "four_gem_mission_final_boss": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:four_gem_mission_final_boss",
+        "stream": false
+      }
+    ]
+  },
+  "village_mission": {
+    "sounds": [
+      {
+        "name": "fhersafio_faro_de_almas_perdidas:village_mission",
+        "stream": false
+      }
+    ]
+  }
+}

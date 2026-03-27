@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	com/fhersafio/farodealmasperdidas/mixin/LivingEntityMixin	I	lastHurtByPlayerMemoryTime	field_6238
+METHOD	com/fhersafio/farodealmasperdidas/mixin/LivingEntityMixin	()Z	isAlwaysExperienceDropper	method_6071

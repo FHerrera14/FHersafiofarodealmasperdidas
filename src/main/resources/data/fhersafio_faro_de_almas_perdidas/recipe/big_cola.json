@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": "minecraft:red_carpet",
+    "b": "minecraft:golden_apple",
+    "c": "minecraft:coal",
+    "d": "minecraft:water_bucket",
+    "e": "minecraft:sugar"
+  },
+  "result": {
+    "id": "fhersafio_faro_de_almas_perdidas:big_colita",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": "minecraft:ghast_tear",
+    "b": "minecraft:blaze_rod",
+    "c": "minecraft:soul_sand"
+  },
+  "result": {
+    "id": "fhersafio_faro_de_almas_perdidas:vara_de_almas",
+    "count": 3
+  }
+}

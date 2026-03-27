@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ada"
+  ],
+  "key": {
+    "a": "minecraft:ender_eye",
+    "b": "minecraft:diamond",
+    "c": "fhersafio_faro_de_almas_perdidas:vara_de_almas",
+    "d": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "id": "fhersafio_faro_de_almas_perdidas:tenedor_de_la_vida",
+    "count": 1
+  }
+}

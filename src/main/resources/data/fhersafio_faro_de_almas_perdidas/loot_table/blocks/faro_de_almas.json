@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fhersafio_faro_de_almas_perdidas:blocks/faro_de_almas",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fhersafio_faro_de_almas_perdidas:faro_de_almas"
+        }
+      ]
+    }
+  ]
+}

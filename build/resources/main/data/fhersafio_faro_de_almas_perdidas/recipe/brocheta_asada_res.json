@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:beef",
+    "b": "minecraft:apple",
+    "c": "minecraft:stick",
+    "d": "minecraft:beetroot"
+  },
+  "result": {
+    "id": "fhersafio_faro_de_almas_perdidas:carne_asada",
+    "count": 1
+  }
+}

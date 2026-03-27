@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "glass": "fglass",
+        "obsidian": "fobsidian",
+        "beacon": "fbeacon"
+      }
+    }
+  }
+}

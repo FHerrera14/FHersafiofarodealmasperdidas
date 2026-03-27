@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fhersafio_faro_de_almas_perdidas:item/carne_asada"
+  }
+}

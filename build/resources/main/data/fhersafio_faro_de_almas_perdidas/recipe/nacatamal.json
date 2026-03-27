@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": "minecraft:porkchop",
+    "b": "minecraft:string",
+    "c": "minecraft:wheat",
+    "d": "minecraft:golden_apple",
+    "e": "minecraft:dried_kelp",
+    "f": "minecraft:kelp"
+  },
+  "result": {
+    "id": "fhersafio_faro_de_almas_perdidas:nacatamal",
+    "count": 1
+  }
+}

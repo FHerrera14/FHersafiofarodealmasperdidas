@@ -1,0 +1,21 @@
+{
+  "item_group.fhersafio_faro_de_almas_perdidas.tab_f_hersafio": "Tab FHersafio",
+  "item.fhersafio_faro_de_almas_perdidas.faro_de_almas": "Faro de Almas",
+  "subtitles.break_faro": "",
+  "subtitles.place_faro": "",
+  "subtitles.drop_faro": "",
+  "item.fhersafio_faro_de_almas_perdidas.cuchara_resureccion": "Cuchara de la Resurección",
+  "item.fhersafio_faro_de_almas_perdidas.tenedor_de_la_vida": "Tenedor De La Vida",
+  "item.fhersafio_faro_de_almas_perdidas.vara_de_almas": "Vara de Almas",
+  "item.fhersafio_faro_de_almas_perdidas.nacatamal": "Nacatamal",
+  "item.fhersafio_faro_de_almas_perdidas.carne_asada": "Carne Asada",
+  "item.fhersafio_faro_de_almas_perdidas.pan_semita": "Pan Semita",
+  "item.fhersafio_faro_de_almas_perdidas.big_colita": "Big Colita",
+  "subtitles.player_dead": "",
+  "subtitles.player_revive": "",
+  "subtitles.first_gem_mission": "",
+  "subtitles.second_gem_mission": "",
+  "subtitles.third_gem_mission": "",
+  "subtitles.four_gem_mission_final_boss": "",
+  "subtitles.village_mission": ""
+}

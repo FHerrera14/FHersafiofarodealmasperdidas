@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fhersafio_faro_de_almas_perdidas",
+  "version": "1.0.5",
+  "name": "FHersafio: Faro de Almas Perdidas",
+  "authors": [
+    "FHerrera14"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.fhersafio.farodealmasperdidas.FhersafioFaroDeAlmasPerdidasMod"
+    ],
+    "client": [
+      "com.fhersafio.farodealmasperdidas.FhersafioFaroDeAlmasPerdidasModClient"
+    ]
+  },
+  "mixins": [
+    "fhersafio_faro_de_almas_perdidas.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

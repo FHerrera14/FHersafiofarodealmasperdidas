@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": "Blocks.KELP"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Nacatamal"
+    },
+    "name": "nacatamal",
+    "namespace": "mod"
+  }
+}

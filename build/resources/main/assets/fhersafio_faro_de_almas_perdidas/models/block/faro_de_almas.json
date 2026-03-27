@@ -1,0 +1,11 @@
+{
+  "parent": "fhersafio_faro_de_almas_perdidas:custom/faro",
+  "textures": {
+    "all": "fhersafio_faro_de_almas_perdidas:block/farodealmas",
+    "particle": "fhersafio_faro_de_almas_perdidas:block/farodealmas",
+    "glass": "fhersafio_faro_de_almas_perdidas:block/fglass",
+    "obsidian": "fhersafio_faro_de_almas_perdidas:block/fobsidian",
+    "beacon": "fhersafio_faro_de_almas_perdidas:block/fbeacon"
+  },
+  "render_type": "translucent"
+}

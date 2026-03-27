@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": "minecraft:sugar",
+    "b": "minecraft:egg",
+    "c": "minecraft:wheat"
+  },
+  "result": {
+    "id": "fhersafio_faro_de_almas_perdidas:pan_semita",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    "ada"
+  ],
+  "key": {
+    "a": "minecraft:ender_pearl",
+    "b": "minecraft:gold_ingot",
+    "c": "minecraft:totem_of_undying",
+    "d": "fhersafio_faro_de_almas_perdidas:vara_de_almas"
+  },
+  "result": {
+    "id": "fhersafio_faro_de_almas_perdidas:cuchara_resureccion",
+    "count": 1
+  }
+}

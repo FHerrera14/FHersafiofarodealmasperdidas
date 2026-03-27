@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Tab FHersafio",
+    "icon": {
+      "value": "CUSTOM:FaroDeAlmas"
+    },
+    "showSearch": false
+  }
+}

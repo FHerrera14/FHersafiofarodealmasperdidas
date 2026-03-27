@@ -1,0 +1,561 @@
+{
+  "mod_elements": [
+    {
+      "name": "TabFHersafio",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab_f_hersafio",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FaroDeAlmas",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faro_de_almas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/loot_table/blocks/faro_de_almas.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/faro_de_almas.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/blockstates/faro_de_almas.json",
+          "src/main/java/com/fhersafio/farodealmasperdidas/block/FaroDeAlmasBlock.java",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/block/faro_de_almas.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/items/faro_de_almas.json"
+        ]
+      }
+    },
+    {
+      "name": "CucharaResureccion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuchara_resureccion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/cuchara_resureccion_gui.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/items/cuchara_resureccion.json",
+          "src/main/java/com/fhersafio/farodealmasperdidas/item/CucharaResureccionItem.java",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/cuchara_resureccion.json"
+        ]
+      }
+    },
+    {
+      "name": "TenedorDeLaVida",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenedor_de_la_vida",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/item/TenedorDeLaVidaItem.java",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/items/tenedor_de_la_vida.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/tenedor_de_la_vida_gui.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/tenedor_de_la_vida.json"
+        ]
+      }
+    },
+    {
+      "name": "VaraDeAlmas",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vara_de_almas",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/item/VaraDeAlmasItem.java",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/vara_de_almas.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/vara_de_almas_gui.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/items/vara_de_almas.json"
+        ]
+      }
+    },
+    {
+      "name": "NacatamalAlJugadorDejarDeUsarlo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nacatamal_al_jugador_dejar_de_usarlo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/procedures/NacatamalAlJugadorDejarDeUsarloProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nacatamal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nacatamal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/nacatamal_gui.json",
+          "src/main/java/com/fhersafio/farodealmasperdidas/item/NacatamalItem.java",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/items/nacatamal.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/nacatamal.json"
+        ]
+      }
+    },
+    {
+      "name": "CarneAsadaAlJugadorDejarDeUsarlo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carne_asada_al_jugador_dejar_de_usarlo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/procedures/CarneAsadaAlJugadorDejarDeUsarloProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CarneAsada",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carne_asada",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/carne_asada_gui.json",
+          "src/main/java/com/fhersafio/farodealmasperdidas/item/CarneAsadaItem.java",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/items/carne_asada.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/carne_asada.json"
+        ]
+      }
+    },
+    {
+      "name": "PanSemitaAlJugadorDejarDeUsarlo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pan_semita_al_jugador_dejar_de_usarlo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/procedures/PanSemitaAlJugadorDejarDeUsarloProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PanSemita",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pan_semita",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/items/pan_semita.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/pan_semita_gui.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/pan_semita.json",
+          "src/main/java/com/fhersafio/farodealmasperdidas/item/PanSemitaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BigColitaAlJugadorDejarDeUsarlo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_colita_al_jugador_dejar_de_usarlo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/procedures/BigColitaAlJugadorDejarDeUsarloProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BigColita",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_colita",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/items/big_colita.json",
+          "src/main/java/com/fhersafio/farodealmasperdidas/item/BigColitaItem.java",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/big_colita_gui.json",
+          "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/models/item/big_colita.json"
+        ]
+      }
+    },
+    {
+      "name": "RecetaVaraDeAlmas",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "receta_vara_de_almas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/advancement/recipes/receta_vara_de_almas.json",
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/recipe/receta_vara_de_almas.json"
+        ]
+      }
+    },
+    {
+      "name": "CucharaDeLaResureccion",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuchara_de_la_resureccion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/advancement/recipes/cuchara_de_la_resureccion.json",
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/recipe/cuchara_de_la_resureccion.json"
+        ]
+      }
+    },
+    {
+      "name": "TenedorDeVida",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenedor_de_vida",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/advancement/recipes/tenedor_de_vida.json",
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/recipe/tenedor_de_la_vida.json"
+        ]
+      }
+    },
+    {
+      "name": "Cola",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/advancement/recipes/cola.json",
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/recipe/big_cola.json"
+        ]
+      }
+    },
+    {
+      "name": "Semita",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semita",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/recipe/semita.json",
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/advancement/recipes/semita.json"
+        ]
+      }
+    },
+    {
+      "name": "BrochetaDeAsada",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brocheta_de_asada",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/advancement/recipes/brocheta_de_asada.json",
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/recipe/brocheta_de_asada.json"
+        ]
+      }
+    },
+    {
+      "name": "BrochetaAsadaRes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brocheta_asada_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/recipe/brocheta_asada_res.json"
+        ]
+      }
+    },
+    {
+      "name": "NacatamalLegendario",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nacatamal_legendario",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fhersafio_faro_de_almas_perdidas/recipe/nacatamal.json"
+        ]
+      }
+    },
+    {
+      "name": "PlayerDeadDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_dead_display_overlay_ingame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/procedures/PlayerDeadDisplayOverlayIngameProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerDead",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_dead",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/client/screens/PlayerDeadOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "PipoMuerteFalsa",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipo_muerte_falsa",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/fhersafio/farodealmasperdidas/procedures/PipoMuerteFalsaProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "AnimacionFrame",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "break_faro",
+      "files": [
+        "break_faro"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "place_faro",
+      "files": [
+        "faro_place"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "drop_faro",
+      "files": [
+        "faro_drop"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "player_dead",
+      "files": [
+        "player_dead"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "player_revive",
+      "files": [
+        "player_revive"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "first_gem_mission",
+      "files": [
+        "first_gem_mission"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "second_gem_mission",
+      "files": [
+        "second_gem_mission"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "third_gem_mission",
+      "files": [
+        "thrid_gem_mission"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "four_gem_mission_final_boss",
+      "files": [
+        "four_gem_mission_final_boss"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "village_mission",
+      "files": [
+        "village_mission"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:VaraDeAlmas"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:CarneAsada"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.fhersafio_faro_de_almas_perdidas.tab_f_hersafio": "Tab FHersafio",
+      "item.fhersafio_faro_de_almas_perdidas.faro_de_almas": "Faro de Almas",
+      "subtitles.break_faro": "",
+      "subtitles.place_faro": "",
+      "subtitles.drop_faro": "",
+      "item.fhersafio_faro_de_almas_perdidas.cuchara_resureccion": "Cuchara de la Resurreción",
+      "item.fhersafio_faro_de_almas_perdidas.tenedor_de_la_vida": "Tenedor de la Vida",
+      "item.fhersafio_faro_de_almas_perdidas.vara_de_almas": "Vara de Almas",
+      "item.fhersafio_faro_de_almas_perdidas.nacatamal": "Nacatamal",
+      "item.fhersafio_faro_de_almas_perdidas.carne_asada": "Carne Asada",
+      "item.fhersafio_faro_de_almas_perdidas.pan_semita": "Pan Semita",
+      "item.fhersafio_faro_de_almas_perdidas.big_colita": "Big Colita",
+      "subtitles.player_dead": "",
+      "subtitles.player_revive": "",
+      "subtitles.first_gem_mission": "",
+      "subtitles.second_gem_mission": "",
+      "subtitles.third_gem_mission": "",
+      "subtitles.four_gem_mission_final_boss": "",
+      "subtitles.village_mission": ""
+    },
+    "es_mx": {
+      "item_group.fhersafio_faro_de_almas_perdidas.tab_f_hersafio": "Tab FHersafio",
+      "item.fhersafio_faro_de_almas_perdidas.faro_de_almas": "Faro de Almas",
+      "subtitles.break_faro": "",
+      "subtitles.place_faro": "",
+      "subtitles.drop_faro": "",
+      "item.fhersafio_faro_de_almas_perdidas.cuchara_resureccion": "Cuchara de la Resurección",
+      "item.fhersafio_faro_de_almas_perdidas.tenedor_de_la_vida": "Tenedor De La Vida",
+      "item.fhersafio_faro_de_almas_perdidas.vara_de_almas": "Vara de Almas",
+      "item.fhersafio_faro_de_almas_perdidas.nacatamal": "Nacatamal",
+      "item.fhersafio_faro_de_almas_perdidas.carne_asada": "Carne Asada",
+      "item.fhersafio_faro_de_almas_perdidas.pan_semita": "Pan Semita",
+      "item.fhersafio_faro_de_almas_perdidas.big_colita": "Big Colita",
+      "subtitles.player_dead": "",
+      "subtitles.player_revive": "",
+      "subtitles.first_gem_mission": "",
+      "subtitles.second_gem_mission": "",
+      "subtitles.third_gem_mission": "",
+      "subtitles.four_gem_mission_final_boss": "",
+      "subtitles.village_mission": ""
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/fhersafio/farodealmasperdidas/init/FhersafioFaroDeAlmasPerdidasModOverlays.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/init/FhersafioFaroDeAlmasPerdidasModProcedures.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/init/FhersafioFaroDeAlmasPerdidasModBlocks.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/init/FhersafioFaroDeAlmasPerdidasModBlocksRenderers.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/ServerPlayerMixin.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/init/FhersafioFaroDeAlmasPerdidasModItems.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/init/FhersafioFaroDeAlmasPerdidasModTabs.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/CommandsMixin.java",
+      "src/main/resources/fhersafio_faro_de_almas_perdidas.mixins.json",
+      "src/main/resources/assets/fhersafio_faro_de_almas_perdidas/sounds.json",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/ItemStackMixin.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/FhersafioFaroDeAlmasPerdidasMod.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/event/PlayerEvents.java",
+      "src/main/resources/META-INF/fhersafio_faro_de_almas_perdidas.accesswidener",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/PlayerMixin.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/fhersafio/farodealmasperdidas/event/ItemEvents.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/ExperienceOrbMixin.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/event/BlockEvents.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/init/FhersafioFaroDeAlmasPerdidasModSounds.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/network/FhersafioFaroDeAlmasPerdidasModVariables.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/event/MiscEvents.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/event/LivingEntityEvents.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/BlockItemMixin.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/FhersafioFaroDeAlmasPerdidasModClient.java",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/BoneMealItemMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/com/fhersafio/farodealmasperdidas/mixin/LivingEntityMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fhersafio_faro_de_almas_perdidas",
+    "modName": "FHersafio: Faro de Almas Perdidas",
+    "version": "1.0.5a",
+    "author": "FHerrera14",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "fhersafio_l",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "credits": "This is a mod for FHerrera14 Serie",
+    "modElementsPackage": "com.fhersafio.farodealmasperdidas"
+  },
+  "mcreatorVersion": 202500345720
+}
